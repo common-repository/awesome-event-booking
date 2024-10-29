@@ -1,0 +1,509 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+/*  SECTIONS  */
+.section {
+    clear: both;
+    padding: 0px;
+    margin: 0px;
+}
+
+/*  COLUMN SETUP  */
+.col {
+    display: block;
+    float: left;
+    margin: 1% 0 1% 1.6%;
+}
+
+.col:first-child {
+    margin-left: 0;
+}
+
+/*  GROUPING  */
+.group:before,
+.group:after {
+    content: "";
+    display: table;
+}
+
+.group:after {
+    clear: both;
+}
+
+.group {
+    zoom: 1;
+    /* For IE 6/7 */
+}
+
+/*  GRID OF FOUR  */
+.span_4_of_4 {
+    width: 100%;
+}
+
+.span_3_of_4 {
+    width: 74.6%;
+}
+
+.span_2_of_4 {
+    width: 49.2%;
+}
+
+.span_1_of_4 {
+    width: 23.8%;
+}
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (max-width: 480px) {
+    .col {
+        margin: 1% 0 1% 0%;
+    }
+
+    .span_1_of_4,
+    .span_2_of_4,
+    .span_3_of_4,
+    .span_4_of_4 {
+        width: 100%;
+    }
+}
+
+/*  GRID OF TWO  */
+.span_2_of_2 {
+    width: 100%;
+}
+
+.span_1_of_2 {
+    width: 49.2%;
+}
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+@media only screen and (max-width: 480px) {
+    .col {
+        margin: 1% 0 1% 0%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+
+    .span_2_of_2,
+    .span_1_of_2 {
+        width: 100%;
+    }
+}
+
+.div_event_location,
+.div_event_manager,
+.div_location_region,
+.div_event_customer {
+    display: none;
+}
+
+.txt-error {
+    border: 1px solid red !important;
+}
+
+@media screen and (max-width: 767px) {
+    .select2 {
+        width: 100% !important;
+    }
+}
+
+.div_date_time .date {
+    width: 120px;
+}
+
+.div_date_time .time {
+    width: 80px;
+}
+
+#txt_event_cost {
+    width: 80px;
+}
+
+.wpeb-booking-details {
+    min-width: 255px;
+    border: 1px solid #e5e5e5;
+    background: #fff;
+}
+
+h1.booking_title {
+    padding: 10px 15px;
+}
+
+.span_1_of_2 .regular-text {
+    width: 100%;
+    padding: 6px 6px;
+    margin: 6px 0;
+    box-sizing: border-box;
+}
+
+.col.span_1_of_2 table {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.col.span_1_of_2.events_location_new_region {
+    margin: 10px 20px;
+    padding: 20px 40px;
+    border: 1px solid grey;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+    -webkit-box-shadow: 1px 1px 1px 1px #8A8A8A;
+    box-shadow: 1px 1px 1px 1px #8A8A8A;
+}
+
+.error {
+    color: red !important;
+}
+
+.success {
+    color: green !important;
+}
+
+.warning {
+    color: #8a6d3b !important;
+}
+
+p.status_switcher {
+    margin: 10px 12px;
+}
+
+.wpeb-email-template-settings input[type="text"] {
+    width: 100%;
+}
+
+.customer_list_holder {
+    max-height: 295px;
+    overflow-y: auto;
+    /*border: 1px solid;*/
+}
+
+.customer_list_holder p {
+    margin: 1px 5px;
+}
+
+.select_all_holder {
+    margin: 5px auto auto 5px;
+    font-weight: bold;
+}
+
+.cls_signed_up_customers h4 {
+    font-size: 15px;
+}
+
+.cls_select_event span,
+ul[id^="select2-sel_events_list-"] li {
+    font-size: 15px;
+}
+
+.customer_list_holder p {
+    font-size: 15px;
+}
+
+.section.group .col.span_1_of_2 h4 {
+    margin: 0px 0px 10px 8px;
+}
+
+.select2-selection__choice {
+    background-color: #0073aa !important;
+    border: 1px solid #006799 !important;
+    color: #fff !important;
+}
+
+.select2-selection__choice__remove {
+    color: #fff !important
+}
+
+.new_filter_admin {
+    display: inline-flex;
+    margin-left: -10px;
+}
+
+.new_filter_admin p {
+    margin-top: 0;
+    padding: 0 20px;
+}
+
+.new_filter_admin .div_date_time input[type="text"] {
+    height: 28px;
+}
+
+.new_filter_admin p span {
+    padding-right: 5px;
+    margin-left: 10px;
+}
+
+/*tooltip - starts here */
+/* Tooltip container */
+.wpeb_tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+    /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.wpeb_tooltip .wpeb_tooltipwrap {
+    display: none;
+    width: 300px;
+    background-color: hsl(0, 0%, 88.5%);
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    /* Position the tooltip text */
+    position: absolute;
+    z-index: 1;
+    bottom: 25px;
+    left: -150px;
+    top: 0;
+        /* Fade in tooltip */
+        opacity: 0;
+    transition: opacity 0.3s;
+}
+
+/* Tooltip arrow */
+.wpeb_tooltip .wpeb_tooltipwrap::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -2px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: hsl(0, 0%, 88.5%) transparent transparent transparent;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.wpeb_tooltip:hover .wpeb_tooltipwrap {
+    display: block;
+    opacity: 1;
+}
+
+.wpeb_tooltip .wpeb_tooltipwrap .wpeb_tooltipcontent p {
+    margin: 0px;
+}
+
+.wpeb_tooltip .wpeb_tooltipwrap .wpeb_tooltipcontent {
+    max-height: 250px;
+    overflow-y: auto;
+}
+
+/*tooltip - starts here */
+/*spinner*/
+@keyframes lds-spinner {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes lds-spinner {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.lds-spinner {
+    position: relative;
+}
+
+.lds-spinner div {
+    left: 94px;
+    top: 48px;
+    position: absolute;
+    -webkit-animation: lds-spinner linear 1s infinite;
+    animation: lds-spinner linear 1s infinite;
+    background: #df1317;
+    width: 12px;
+    height: 24px;
+    border-radius: 40%;
+    -webkit-transform-origin: 6px 52px;
+    transform-origin: 6px 52px;
+}
+
+.lds-spinner div:nth-child(1) {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-animation-delay: -0.916666666666667s;
+    animation-delay: -0.916666666666667s;
+}
+
+.lds-spinner div:nth-child(2) {
+    -webkit-transform: rotate(30deg);
+    transform: rotate(30deg);
+    -webkit-animation-delay: -0.833333333333333s;
+    animation-delay: -0.833333333333333s;
+}
+
+.lds-spinner div:nth-child(3) {
+    -webkit-transform: rotate(60deg);
+    transform: rotate(60deg);
+    -webkit-animation-delay: -0.75s;
+    animation-delay: -0.75s;
+}
+
+.lds-spinner div:nth-child(4) {
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    -webkit-animation-delay: -0.666666666666667s;
+    animation-delay: -0.666666666666667s;
+}
+
+.lds-spinner div:nth-child(5) {
+    -webkit-transform: rotate(120deg);
+    transform: rotate(120deg);
+    -webkit-animation-delay: -0.583333333333333s;
+    animation-delay: -0.583333333333333s;
+}
+
+.lds-spinner div:nth-child(6) {
+    -webkit-transform: rotate(150deg);
+    transform: rotate(150deg);
+    -webkit-animation-delay: -0.5s;
+    animation-delay: -0.5s;
+}
+
+.lds-spinner div:nth-child(7) {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    -webkit-animation-delay: -0.416666666666667s;
+    animation-delay: -0.416666666666667s;
+}
+
+.lds-spinner div:nth-child(8) {
+    -webkit-transform: rotate(210deg);
+    transform: rotate(210deg);
+    -webkit-animation-delay: -0.333333333333333s;
+    animation-delay: -0.333333333333333s;
+}
+
+.lds-spinner div:nth-child(9) {
+    -webkit-transform: rotate(240deg);
+    transform: rotate(240deg);
+    -webkit-animation-delay: -0.25s;
+    animation-delay: -0.25s;
+}
+
+.lds-spinner div:nth-child(10) {
+    -webkit-transform: rotate(270deg);
+    transform: rotate(270deg);
+    -webkit-animation-delay: -0.166666666666667s;
+    animation-delay: -0.166666666666667s;
+}
+
+.lds-spinner div:nth-child(11) {
+    -webkit-transform: rotate(300deg);
+    transform: rotate(300deg);
+    -webkit-animation-delay: -0.083333333333333s;
+    animation-delay: -0.083333333333333s;
+}
+
+.lds-spinner div:nth-child(12) {
+    -webkit-transform: rotate(330deg);
+    transform: rotate(330deg);
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+}
+
+.lds-spinner {
+    width: 32px !important;
+    height: 32px !important;
+    -webkit-transform: translate(-16px, -16px) scale(0.16) translate(16px, 16px);
+    transform: translate(-16px, -16px) scale(0.16) translate(16px, 16px);
+}
+
+.lds-css.ng-scope {
+    display: inline-block;
+}
+
+.event_signup_users table.tablesorter {
+    background-color: #e6EEEE;
+    border-radius: 3px;
+    border-collapse: collapse;
+    border: 1px solid #d1e0e0;
+}
+
+.event_signup_users table td a {
+    text-decoration: none;
+}
+
+.event_signup_users table.tablesorter thead tr td,
+.event_signup_users table.tablesorter thead tr th {
+    border: none;
+}
+
+.event_signup_users table.tablesorter tbody td {
+    padding: 5px 10px;
+    border: 1px solid #e6eeee;
+}
+
+.event_signup_users table.tablesorter thead tr th {
+    padding: 5px 10px;
+    border: 1px solid #d1e0e0;
+}
+
+.event_signup_users .h3 {
+    margin: 0;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.event_signup_users .h3 a {
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.event_signup_users .h4 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.event_signup_users .h5 {
+    margin: 0 0 10px;
+}
+
+#wp_event_booking-event_details h2 span {
+    font-size: 18px;
+}
+
+#wp_event_booking-event_details h4 {
+    font-size: 15px;
+}
+
+.ui-accordion .ui-accordion-header {
+    padding-right: 20px;
+}
+
+#plugin-information-content.with-banner{
+    display: flex;
+    flex-direction: row-reverse;
+}
+#section-holder{
+    margin-right: 0;
+    width: 65%;
+}
+#plugin-information .fyi{
+    width: 34%;
+}
+@media (max-width: 767px){
+    #plugin-information-content.with-banner{
+        flex-wrap: wrap;
+    }
+    #section-holder{
+        width: fit-content;
+    }
+    #plugin-information .fyi{
+        width: fit-content;
+    }
+}

@@ -1,0 +1,1366 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Event Booking\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-07-25 13:34+0000\n"
+"PO-Revision-Date: 2018-07-25 13:36+0000\n"
+"Last-Translator: Hariprasad Vijayan <hariprasad@2hatslogic.com>\n"
+"Language-Team: Danish\n"
+"Language: da_DK\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#. Name of the plugin
+#: wp_event_booking.php:34
+msgid "Awesome Event Booking"
+msgstr ""
+
+#: public/not-in-use--shortcodes.php:5 public/shortcodes.php:5
+#: admin/new_event_list.php:237 public/shortcodes/my-accounts.php:57
+msgid "Future Events"
+msgstr "Kommende events"
+
+#: public/not-in-use--shortcodes.php:5 public/shortcodes.php:5
+#: public/shortcodes/my-accounts.php:62
+msgid "Past Events"
+msgstr "Tidligere events"
+
+#: public/not-in-use--shortcodes.php:72 public/shortcodes.php:72
+#: public/functions.php:629 admin/event_booking_meta_box.php:35
+msgid "Event"
+msgstr ""
+
+#: public/not-in-use--shortcodes.php:72 public/shortcodes.php:72
+#: public/functions.php:158 public/functions.php:634 public/functions.php:637
+#: public/functions.php:1074
+msgid "Start"
+msgstr "Start"
+
+#: public/not-in-use--shortcodes.php:72 public/shortcodes.php:72
+#: public/functions.php:634 public/functions.php:637
+msgid "Status"
+msgstr "Status"
+
+#: public/not-in-use--shortcodes.php:72 public/shortcodes.php:72
+#: public/functions.php:637
+msgid "Registration"
+msgstr "Registrering"
+
+#: public/not-in-use--shortcodes.php:93 public/shortcodes.php:93
+#: public/functions.php:720
+msgid "No Events Found..."
+msgstr "Ingen events fundet"
+
+#: public/functions.php:112 public/functions.php:141 public/functions.php:1028
+#: public/functions.php:1057
+msgid "Date"
+msgstr "Dato"
+
+#: public/functions.php:123 public/functions.php:1039
+#: admin/event_booking_meta_box.php:104
+msgid "Start Date"
+msgstr "Startdato"
+
+#: public/functions.php:125 public/functions.php:1041
+#: admin/event_booking_meta_box.php:108
+msgid "End Date"
+msgstr "Slut-dato"
+
+#: public/functions.php:143 public/functions.php:160 public/functions.php:1059
+#: public/functions.php:1076
+msgid "Time"
+msgstr "Tidspunkt"
+
+#: public/functions.php:183 admin/events_meta_box.php:144
+msgid "Event Manager"
+msgstr "Event-arrangør"
+
+#: public/functions.php:189 admin/events_meta_box.php:183
+#: admin/event_manager_meta_box.php:35 admin/functions.php:1132
+#: admin/templates/general.php:181
+msgid "Phone"
+msgstr "Tlf.nummer"
+
+#: public/functions.php:194 admin/events_meta_box.php:184
+#: admin/event_manager_meta_box.php:36 admin/functions.php:1138
+#: admin/templates/general.php:189
+msgid "Email"
+msgstr "E-mail"
+
+#: public/functions.php:199 admin/events_meta_box.php:185
+#: admin/event_manager_meta_box.php:37 admin/templates/general.php:197
+msgid "Website"
+msgstr "Hjemmeside"
+
+#: public/functions.php:217 admin/events_meta_box.php:41
+msgid "Location"
+msgstr "Beliggenhed"
+
+#: public/functions.php:225 admin/functions.php:1135
+msgid "Address"
+msgstr "Adresse"
+
+#: public/functions.php:246 admin/events_meta_box.php:219
+msgid "Cost"
+msgstr "Pris"
+
+#: public/functions.php:253
+msgid "Seats Available"
+msgstr "Ledige pladser"
+
+#: public/functions.php:626 admin/events_meta_box.php:82
+#: admin/new_event_list.php:38 admin/location_meta_box.php:40
+msgid "City"
+msgstr "By"
+
+#: public/functions.php:689 admin/events_meta_box.php:188
+#: admin/events_meta_box.php:333 admin/location_meta_box.php:98
+#: admin/event_booking_meta_box.php:255 admin/functions.php:512
+msgid "Cancel"
+msgstr "Afbestil"
+
+#: public/functions.php:693
+msgid "Sign Up"
+msgstr "Tilmeld"
+
+#: public/functions.php:697
+msgid "No seats left"
+msgstr "Optaget"
+
+#: public/functions.php:700 public/functions.php:723
+msgid "Read More"
+msgstr "Læs mere"
+
+#: public/functions.php:724
+msgid "Close"
+msgstr "Luk"
+
+#: public/functions.php:758 src/js/class-aeb_reseller-public.php:911
+#: src/js/class-aeb_reseller-public.php:1490
+msgid " seats available."
+msgstr "Ledige pladser"
+
+#: public/functions.php:761 src/js/class-aeb_reseller-public.php:914
+#: src/js/class-aeb_reseller-public.php:1493
+msgid "Available"
+msgstr "Åben"
+
+#: public/functions.php:812
+msgid "You don't have access to this site"
+msgstr "Du har ikke adgang til denne side"
+
+#: public/functions.php:884 src/js/class-aeb_reseller-public.php:978
+#: src/js/class-aeb_reseller-public.php:1210
+msgid "Username"
+msgstr "Brugernavn"
+
+#: public/functions.php:884 src/js/class-aeb_reseller-public.php:978
+#: src/js/class-aeb_reseller-public.php:1210
+msgid "Password"
+msgstr "Adgangskode"
+
+#: public/functions.php:1109
+msgid "Are you sure you want to cancel this?"
+msgstr "Er du sikker på, at du vil aflyse?"
+
+#: public/functions.php:1110 public/shortcodes/checkout.php:134
+msgid "No seats available."
+msgstr "Ingen pladser ledige"
+
+#: public/functions.php:1111
+#, php-format
+msgid "Only %d% seats available."
+msgstr "Kun %d pladser ledige"
+
+#: public/functions.php:1126
+msgid "Loading..."
+msgstr "Henter..."
+
+#: public/functions.php:1136
+msgid "Every 5 Minutes"
+msgstr "Hvert 5. minut"
+
+#: admin/register_custom_post_types.php:11
+msgctxt "Post Type General Name"
+msgid "Events"
+msgstr "Events"
+
+#: admin/register_custom_post_types.php:12
+msgctxt "Post Type Singular Name"
+msgid "Event"
+msgstr "Event"
+
+#: admin/register_custom_post_types.php:13
+#: admin/register_custom_post_types.php:14 admin/events_meta_box.php:386
+#: public/templates/content-events.php:8
+msgid "Events"
+msgstr "Events"
+
+#: admin/register_custom_post_types.php:15
+msgid "Event Archives"
+msgstr "Event-arkiv"
+
+#: admin/register_custom_post_types.php:16
+msgid "Event Attributes"
+msgstr "Eventegenskaber"
+
+#: admin/register_custom_post_types.php:17
+msgid "Parent Event:"
+msgstr "Forældre event:"
+
+#: admin/register_custom_post_types.php:18
+msgid "All Events"
+msgstr "Alle events"
+
+#: admin/register_custom_post_types.php:19
+#: admin/register_custom_post_types.php:20
+msgid "Add New Event"
+msgstr "Tilføj nyt event"
+
+#: admin/register_custom_post_types.php:21
+msgid "New Event"
+msgstr "Nyt event"
+
+#: admin/register_custom_post_types.php:22
+msgid "Edit Event"
+msgstr "Rediger event"
+
+#: admin/register_custom_post_types.php:23
+msgid "Update Event"
+msgstr "Opdater event"
+
+#: admin/register_custom_post_types.php:24 admin/event_booking_meta_box.php:114
+msgid "View Event"
+msgstr "Vis event"
+
+#: admin/register_custom_post_types.php:25
+msgid "View Events"
+msgstr "Vis events"
+
+#: admin/register_custom_post_types.php:26
+msgid "Search Event"
+msgstr "Søg efter event"
+
+#: admin/register_custom_post_types.php:27
+msgid "Not found"
+msgstr "Ikke fundet"
+
+#: admin/register_custom_post_types.php:28
+msgid "Not found in Trash"
+msgstr "Ikke fundet i papirkurven"
+
+#: admin/register_custom_post_types.php:29
+msgid "Featured Image"
+msgstr "Udvalgt billede"
+
+#: admin/register_custom_post_types.php:30
+msgid "Set featured image"
+msgstr "Indstil udvalgt billede"
+
+#: admin/register_custom_post_types.php:31
+msgid "Remove featured image"
+msgstr "Fjern udvalgt billede"
+
+#: admin/register_custom_post_types.php:32
+msgid "Use as featured image"
+msgstr "Brug som fremhævede billeder"
+
+#: admin/register_custom_post_types.php:33
+msgid "Insert into event"
+msgstr "Indsæt i event"
+
+#: admin/register_custom_post_types.php:34
+msgid "Uploaded to this event"
+msgstr "Uploadet til dette event"
+
+#: admin/register_custom_post_types.php:35
+msgid "Events list"
+msgstr "Eventliste"
+
+#: admin/register_custom_post_types.php:36
+msgid "Events list navigation"
+msgstr "Eventliste navigation"
+
+#: admin/register_custom_post_types.php:37
+msgid "Filter events list"
+msgstr "Eventliste filter"
+
+#: admin/register_custom_post_types.php:40
+msgid "event"
+msgstr "Event"
+
+#: admin/register_custom_post_types.php:41
+msgid "Events post type for booking events"
+msgstr "Event"
+
+#: admin/register_custom_post_types.php:67
+msgctxt "Post Type General Name"
+msgid "Event Booking"
+msgstr "Tilmelding"
+
+#: admin/register_custom_post_types.php:68
+msgctxt "Post Type Singular Name"
+msgid "Event Booking"
+msgstr "Tilmelding"
+
+#: admin/register_custom_post_types.php:69
+#: admin/register_custom_post_types.php:70
+#: admin/register_custom_post_types.php:74
+msgid "Event Bookings"
+msgstr "Event-tilmeldinger"
+
+#: admin/register_custom_post_types.php:71
+msgid "Event Booking Archives"
+msgstr "Event tilmeldingsregister"
+
+#: admin/register_custom_post_types.php:72
+msgid "Event Booking Attributes"
+msgstr "Event tilmeldings-egenskaber"
+
+#: admin/register_custom_post_types.php:73
+msgid "Parent Event Booking:"
+msgstr "Forældre event tilmelding:"
+
+#: admin/register_custom_post_types.php:75
+msgid "Add New Event Booking"
+msgstr ""
+"Tilføj ny tilmelding\n"
+
+#: admin/register_custom_post_types.php:76
+msgid "Add New Booking"
+msgstr "Tilføj ny tilmelding"
+
+#: admin/register_custom_post_types.php:77
+msgid "New Event Booking"
+msgstr "Ny tilmelding"
+
+#: admin/register_custom_post_types.php:78
+msgid "Edit Event Booking"
+msgstr "Rediger tilmelding"
+
+#: admin/register_custom_post_types.php:79
+msgid "Update Event Booking"
+msgstr "Opdater tilmelding"
+
+#: admin/register_custom_post_types.php:80
+msgid "View Event Booking"
+msgstr "Vis tilmelding"
+
+#: admin/register_custom_post_types.php:81
+msgid "View Event Bookings"
+msgstr "Vis tilmeldinger"
+
+#: admin/register_custom_post_types.php:82
+msgid "Search Event Bookings"
+msgstr "Søg efter tilmelding"
+
+#: admin/register_custom_post_types.php:93
+msgctxt "Post Type General Name"
+msgid "Locations"
+msgstr "Beliggenhed"
+
+#: admin/register_custom_post_types.php:94
+msgctxt "Post Type Singular Name"
+msgid "Location"
+msgstr "Beliggenhed"
+
+#: admin/register_custom_post_types.php:95
+#: admin/register_custom_post_types.php:96
+#: admin/register_custom_post_types.php:100
+msgid "Locations"
+msgstr "Beliggenhed"
+
+#: admin/register_custom_post_types.php:97
+msgid "Location Archives"
+msgstr "Beliggenhed arkiv"
+
+#: admin/register_custom_post_types.php:98
+msgid "Location Attributes"
+msgstr "Beliggenhed egenskaber"
+
+#: admin/register_custom_post_types.php:99
+msgid "Parent Location:"
+msgstr "Forældre beliggenhed:"
+
+#: admin/register_custom_post_types.php:101
+msgid "Add New Location"
+msgstr "Tilføj nyt sted"
+
+#: admin/register_custom_post_types.php:102
+#: admin/register_custom_post_types.php:126
+#: admin/register_custom_post_types.php:151
+msgid "Add New"
+msgstr "Tilføj ny"
+
+#: admin/register_custom_post_types.php:103 admin/events_meta_box.php:78
+msgid "New Location"
+msgstr "Ny beliggenhed"
+
+#: admin/register_custom_post_types.php:104
+msgid "Edit Location"
+msgstr "Rediger sted"
+
+#: admin/register_custom_post_types.php:105
+msgid "Update Location"
+msgstr "Opdater sted"
+
+#: admin/register_custom_post_types.php:106
+msgid "View Location"
+msgstr "Vis placering"
+
+#: admin/register_custom_post_types.php:107
+msgid "View Locations"
+msgstr "Vis placeringer"
+
+#: admin/register_custom_post_types.php:108
+msgid "Search Location"
+msgstr "Søg beliggenhed"
+
+#: admin/register_custom_post_types.php:117
+msgctxt "Post Type General Name"
+msgid "Regions"
+msgstr "Område"
+
+#: admin/register_custom_post_types.php:118
+msgctxt "Post Type Singular Name"
+msgid "Region"
+msgstr "Område"
+
+#: admin/register_custom_post_types.php:119
+#: admin/register_custom_post_types.php:120
+#: admin/register_custom_post_types.php:124
+msgid "Regions"
+msgstr "Områder"
+
+#: admin/register_custom_post_types.php:121
+msgid "Region Archives"
+msgstr "Område arkiv"
+
+#: admin/register_custom_post_types.php:122
+msgid "Region Attributes"
+msgstr "Område egenskaber"
+
+#: admin/register_custom_post_types.php:123
+msgid "Parent Region:"
+msgstr "Forældre område:"
+
+#: admin/register_custom_post_types.php:125
+msgid "Add New Region"
+msgstr "Tilføj nyt område"
+
+#: admin/register_custom_post_types.php:127 admin/events_meta_box.php:124
+#: admin/location_meta_box.php:93
+msgid "New Region"
+msgstr "Nyt område"
+
+#: admin/register_custom_post_types.php:128
+msgid "Edit Region"
+msgstr "Rediger område"
+
+#: admin/register_custom_post_types.php:129
+msgid "Update Region"
+msgstr "Opdater område"
+
+#: admin/register_custom_post_types.php:130
+msgid "View Region"
+msgstr "Vis område"
+
+#: admin/register_custom_post_types.php:131
+msgid "View Regions"
+msgstr "Vis områder"
+
+#: admin/register_custom_post_types.php:132
+msgid "Search Region"
+msgstr "Søg område"
+
+#: admin/register_custom_post_types.php:142
+msgctxt "Post Type General Name"
+msgid "Event Manager"
+msgstr "Arrangør"
+
+#: admin/register_custom_post_types.php:143
+msgctxt "Post Type Singular Name"
+msgid "Event Manager"
+msgstr "Arrangør"
+
+#: admin/register_custom_post_types.php:144
+#: admin/register_custom_post_types.php:145
+#: admin/register_custom_post_types.php:149
+msgid "Event Managers"
+msgstr "Arrangører"
+
+#: admin/register_custom_post_types.php:146
+msgid "Event Manager Archives"
+msgstr "Event manager arkiv"
+
+#: admin/register_custom_post_types.php:147
+msgid "Event Manager Attributes"
+msgstr "Event egenskaber"
+
+#: admin/register_custom_post_types.php:148
+msgid "Parent Event Manager:"
+msgstr "Forældre event manager:"
+
+#: admin/register_custom_post_types.php:150
+msgid "Add New Event Manager"
+msgstr "Tilføj ny arrangør"
+
+#: admin/register_custom_post_types.php:152 admin/events_meta_box.php:181
+msgid "New Event Manager"
+msgstr "Ny arrangør"
+
+#: admin/register_custom_post_types.php:153
+msgid "Edit Event Manager"
+msgstr "Rediger arrangør"
+
+#: admin/register_custom_post_types.php:154
+msgid "Update Event Manager"
+msgstr "Opdater arrangør"
+
+#: admin/register_custom_post_types.php:155
+msgid "View Event Manager"
+msgstr "Vis arrangør"
+
+#: admin/register_custom_post_types.php:156
+msgid "View Event Managers"
+msgstr "Vis arrangører"
+
+#: admin/register_custom_post_types.php:157
+msgid "Search Event Manager"
+msgstr "Søg efter arrangør"
+
+#: admin/events_meta_box.php:12
+msgid "Event Details"
+msgstr "Event-detaljer"
+
+#: admin/events_meta_box.php:30
+msgid "Event Date/Time"
+msgstr "Event dato og tid"
+
+#: admin/events_meta_box.php:74
+msgid "Add Location"
+msgstr "Tilføj sted"
+
+#: admin/events_meta_box.php:79 admin/events_meta_box.php:182
+#: admin/location_meta_box.php:94
+msgid "Title"
+msgstr "Titel"
+
+#: admin/events_meta_box.php:80 admin/location_meta_box.php:38
+msgid "Street and No."
+msgstr "Vejnavn og nr."
+
+#: admin/events_meta_box.php:81 admin/location_meta_box.php:39
+msgid "Zip code"
+msgstr "Postnr."
+
+#: admin/events_meta_box.php:120 admin/location_meta_box.php:89
+msgid "Add Region"
+msgstr "Tilføj område"
+
+#: admin/events_meta_box.php:126 admin/location_meta_box.php:95
+msgid "Description"
+msgstr "Beskrivelse"
+
+#: admin/events_meta_box.php:128 admin/events_meta_box.php:135
+#: admin/events_meta_box.php:187 admin/events_meta_box.php:332
+#: admin/location_meta_box.php:97
+msgid "Add"
+msgstr "Tilføj"
+
+#: admin/events_meta_box.php:129 admin/events_meta_box.php:136
+msgid "Discard"
+msgstr "Fortryd"
+
+#: admin/events_meta_box.php:177
+msgid "Add Event Manager"
+msgstr "Tilføj arrangør"
+
+#: admin/events_meta_box.php:196
+msgid "Short Event Description"
+msgstr "Kort beskrivelse af eventet"
+
+#: admin/events_meta_box.php:213
+msgid "Event Cost"
+msgstr "Event-pris"
+
+#: admin/events_meta_box.php:221
+msgid "Leave blank for free events."
+msgstr "Udfyld intet,  hvis eventet er gratis"
+
+#: admin/events_meta_box.php:230
+msgid "Available spots"
+msgstr "Ledige pladser"
+
+#: admin/events_meta_box.php:236
+msgid "Spots available"
+msgstr "Pladser tilbage"
+
+#: admin/events_meta_box.php:246
+msgid "Add Existing Customer"
+msgstr "Tilføj eksisterende bruger"
+
+#: admin/events_meta_box.php:270
+msgid "Add user(s) to event now"
+msgstr "Tilføj bruger(e) til event nu"
+
+#: admin/events_meta_box.php:274
+msgid "The user/users have been added to the event."
+msgstr "Deltageren/deltagerne er blevet tilføjet til eventet"
+
+#: admin/events_meta_box.php:279
+msgid "Add New Customer"
+msgstr "Tilføj ny tilmelding"
+
+#: admin/events_meta_box.php:283
+msgid "New Customer"
+msgstr "Ny bruger"
+
+#: admin/events_meta_box.php:352
+msgid "Signed up Customers"
+msgstr "Tilmeldte brugere"
+
+#: admin/events_meta_box.php:357
+msgid "Customers"
+msgstr "Brugere"
+
+#: admin/events_meta_box.php:358
+msgid "Select All"
+msgstr "Vælg alle"
+
+#: admin/events_meta_box.php:433
+msgid ""
+"Here you can move customers to another event. Select customers and select "
+"desired event, then update event."
+msgstr ""
+"Her kan du flytte de tilmeldte brugere til et andet event. Vælg en eller "
+"flere brugere - vælg det ønskede event og opdaterer så eventet"
+
+#: admin/events_meta_box.php:765 admin/functions.php:768
+#: admin/functions.php:1230
+msgid "Booking #"
+msgstr "Tilmelding #"
+
+#: admin/events_meta_box.php:765 admin/functions.php:768
+#: admin/functions.php:1230
+msgid " - Event: "
+msgstr "- Event:"
+
+#: admin/events_meta_box.php:765 admin/functions.php:768
+#: admin/functions.php:1230
+msgid " - Customer: "
+msgstr "- Bruger:"
+
+#: admin/new_event_list.php:34
+msgid "Amount of Signups"
+msgstr "Antal tilmeldte"
+
+#: admin/new_event_list.php:35
+msgid "Available Seats Left"
+msgstr "Ledige pladser"
+
+#: admin/new_event_list.php:36
+msgid "Event Start Date"
+msgstr "Startdato"
+
+#: admin/new_event_list.php:37 admin/location_meta_box.php:56
+#: admin/functions.php:190
+msgid "Region"
+msgstr "Område"
+
+#: admin/new_event_list.php:101
+msgid "From : "
+msgstr "Fra :"
+
+#: admin/new_event_list.php:104
+msgid "To : "
+msgstr "Til :"
+
+#: admin/new_event_list.php:129
+msgid "Select Region"
+msgstr "Vælg lokation"
+
+#: admin/new_event_list.php:152
+msgid "Select City"
+msgstr "Vælg by"
+
+#: admin/new_event_list.php:242
+msgid "Previous Events"
+msgstr "Tidligere events"
+
+#: admin/location_meta_box.php:12
+msgid "Location Details"
+msgstr "Beliggenhed"
+
+#: admin/event_booking_meta_box.php:12
+msgid "Booking Details"
+msgstr "Tilmeldingsdetaljer"
+
+#: admin/event_booking_meta_box.php:94
+msgid "Event title"
+msgstr "Titel"
+
+#: admin/event_booking_meta_box.php:99
+msgid "All Day Event"
+msgstr "Heldagsevent"
+
+#: admin/event_booking_meta_box.php:120
+msgid "Customer"
+msgstr "Bruger:"
+
+#: admin/event_booking_meta_box.php:200
+msgid "View Customer"
+msgstr "Vis bruger"
+
+#: admin/event_booking_meta_box.php:253
+msgid "Booking Status"
+msgstr "Status"
+
+#: admin/event_booking_meta_box.php:254 admin/functions.php:503
+msgid "Activate"
+msgstr "Aktiver"
+
+#: admin/event_manager_meta_box.php:12
+msgid "Event Manager Details"
+msgstr "Arrangør-detaljer"
+
+#: admin/event_booking_filter.php:8
+msgid "All Customers"
+msgstr "Alle brugere"
+
+#: admin/event_booking_filter.php:20
+msgid "All Guest Customers"
+msgstr "Alle brugere"
+
+#: admin/functions.php:184
+msgid "Begin typing location or add new location"
+msgstr "Tilføj ny lokation ved at søge eller skrive her"
+
+#: admin/functions.php:185
+msgid "Begin typing to search or add new Event Manager"
+msgstr "Tilføj ny arrangør ved at søge eller skrive her"
+
+#: admin/functions.php:186
+msgid "Begin typing customer or add new customer"
+msgstr "Tilføj ny bruger ved at søge eller skrive her"
+
+#: admin/functions.php:187
+msgid "Type event name to select an event."
+msgstr "Indtast navn for at vælge et event"
+
+#: admin/functions.php:188
+msgid "Begin typing to search or add new Region"
+msgstr "Tilføj nyt område ved at søge eller skrive her"
+
+#: admin/functions.php:189
+msgid "Country"
+msgstr "Land"
+
+#: admin/functions.php:346
+msgid "Upcoming"
+msgstr "Kommende"
+
+#: admin/functions.php:348
+msgid "Past"
+msgstr "Tidligere"
+
+#: admin/functions.php:369
+msgid "Activate Booking"
+msgstr "Aktiver tilmelding"
+
+#: admin/functions.php:370
+msgid "Cancel Booking"
+msgstr "Afmeld tilmelding"
+
+#: admin/functions.php:485
+#, php-format
+msgid "<a href=\"%s\">Cancelled <span class=\"count\">(%d)</span></a>"
+msgstr "<a href=\"%s\">Annulleret <span class=\"Antal\">(%d)</span></a>"
+
+#: admin/functions.php:503
+msgid "Activate event booking"
+msgstr "Aktiver"
+
+#: admin/functions.php:512
+msgid "Cancel event booking"
+msgstr "Annuller tilmelding"
+
+#: admin/functions.php:559 admin/functions.php:881 admin/templates/event.php:33
+msgid "Attendant phone number"
+msgstr "Deltagers tlf.nr."
+
+#: admin/functions.php:563 admin/functions.php:893 admin/templates/event.php:57
+msgid "Attendant address"
+msgstr "Deltagers adresse:"
+
+#: admin/functions.php:567 admin/functions.php:899 admin/templates/event.php:68
+msgid "Attendant zip code"
+msgstr "Postnr."
+
+#: admin/functions.php:571 admin/functions.php:905 admin/templates/event.php:79
+msgid "Attendant city"
+msgstr "By:"
+
+#: admin/functions.php:575 admin/functions.php:911 admin/templates/event.php:90
+msgid "Attendant state"
+msgstr "Stat"
+
+#: admin/functions.php:579 admin/functions.php:923
+#: admin/templates/event.php:101
+msgid "Company name"
+msgstr "Firmanavn:"
+
+#: admin/functions.php:583 admin/functions.php:929
+#: admin/templates/event.php:112
+msgid "Company address"
+msgstr "Adresse (firma):"
+
+#: admin/functions.php:587 admin/functions.php:935
+#: admin/templates/event.php:123
+msgid "Company zip code"
+msgstr "Postnr.:"
+
+#: admin/functions.php:591 admin/functions.php:941
+#: admin/templates/event.php:134
+msgid "Company city"
+msgstr "By (firma):"
+
+#: admin/functions.php:595 admin/functions.php:947
+#: admin/templates/event.php:145
+msgid "Company state"
+msgstr "Stat"
+
+#: admin/functions.php:599 admin/functions.php:953
+#: admin/templates/event.php:156
+msgid "Company vat number"
+msgstr "CVR-nr. "
+
+#: admin/functions.php:603 admin/functions.php:959
+#: admin/templates/event.php:167
+msgid "Company contact person"
+msgstr "Kontaktperson (firma):"
+
+#: admin/functions.php:607 admin/functions.php:965
+#: admin/templates/event.php:178
+msgid "Company contact person phone number"
+msgstr "Kontaktpersons tlf.nr. (firma):"
+
+#: admin/functions.php:611 admin/functions.php:971
+#: admin/templates/event.php:189
+msgid "Company invoice e-mail address"
+msgstr "Faktura e-mailadresse"
+
+#: admin/functions.php:615 admin/functions.php:977
+#: admin/templates/event.php:200
+msgid "Company reference"
+msgstr "Reference:"
+
+#: admin/functions.php:619 admin/functions.php:988
+#: admin/templates/event.php:211
+msgid "Personal identification number"
+msgstr "Cpr-nummer:"
+
+#: admin/functions.php:659
+msgid "Sorry, your nonce did not verify."
+msgstr "Beklager, der skete en fejl"
+
+#: admin/functions.php:672
+msgid "Sorry, not enough seats available."
+msgstr "Beklager, der er ikke nok ledige pladser"
+
+#: admin/functions.php:856
+msgid " All Day Event"
+msgstr "Heldagsevent"
+
+#: admin/functions.php:869 admin/templates/event.php:8
+msgid "Attendant first name"
+msgstr "Deltagers fornavn:"
+
+#: admin/functions.php:875 admin/templates/event.php:22
+msgid "Attendant last name"
+msgstr "Deltagers efternavn:"
+
+#: admin/functions.php:887 admin/templates/event.php:44
+msgid "Attendant e-mail address"
+msgstr "Deltagers e-mailadresse:"
+
+#: admin/functions.php:1129
+msgid "User Name"
+msgstr "Navn"
+
+#: admin/functions.php:1141
+msgid "Booking Id"
+msgstr "Event-ID"
+
+#: admin/admin_settings.php:8
+msgid "Settings"
+msgstr "Indstillinger"
+
+#: admin/admin_settings.php:145 admin/templates/general.php:2
+msgid "General Settings"
+msgstr "Generelle indstillinger"
+
+#: admin/admin_settings.php:150
+msgid "Email Settings"
+msgstr "Email-indstillinger"
+
+#: admin/admin_settings.php:155
+msgid "Event Settings"
+msgstr "Eventindstillinger"
+
+#: admin/admin_settings.php:160
+msgid "Styling"
+msgstr "Design"
+
+#: admin/admin_settings.php:199
+msgid "Event sign up - Admin notification Subject"
+msgstr "Ny tilmelding - emne i mail til administrator"
+
+#: admin/admin_settings.php:202 admin/admin_settings.php:217
+#: admin/admin_settings.php:230 admin/admin_settings.php:238
+#: admin/admin_settings.php:252 admin/admin_settings.php:263
+#: admin/admin_settings.php:277 admin/admin_settings.php:285
+#: admin/admin_settings.php:297 admin/admin_settings.php:305
+#: admin/admin_settings.php:319 admin/admin_settings.php:327
+#: admin/admin_settings.php:343 admin/admin_settings.php:351
+#: admin/admin_settings.php:365 admin/admin_settings.php:373
+msgid "Possible shortcodes"
+msgstr "Mulige shortcodes"
+
+#: admin/admin_settings.php:214
+msgid "Event sign up - Admin notification Body"
+msgstr "Ny tilmelding - mail til administrator"
+
+#: admin/admin_settings.php:227
+msgid "Event sign up - Customer notification Subject"
+msgstr "Ny tilmelding - emne i mail til bruger"
+
+#: admin/admin_settings.php:235
+msgid "Event sign up - Customer notification Body"
+msgstr "Ny tilmelding - mail til bruger"
+
+#: admin/admin_settings.php:249
+msgid "Event sign up(Dashboard) - Admin notification Subject"
+msgstr "Ny tilmelding via admin - emnefelt til admin"
+
+#: admin/admin_settings.php:260
+msgid "Event sign up(Dashboard) - Admin notification Body"
+msgstr "Ny tilmelding via admin - mail til admin"
+
+#: admin/admin_settings.php:274
+msgid "Event sign up(Dashboard) - Customer notification Subject"
+msgstr "Ny tilmelding via admin - emnefelt til tilmeldt"
+
+#: admin/admin_settings.php:282
+msgid "Event sign up(Dashboard) - Customer notification Body"
+msgstr "Ny tilmelding via admin - mail til tilmeldt"
+
+#: admin/admin_settings.php:294
+msgid "Admin Cancel Sign Up - Admin notification Subject"
+msgstr "Admin annuller tilmelding - Admin notifikationsemne"
+
+#: admin/admin_settings.php:302
+msgid "Admin Cancel Sign Up - Admin notification Body"
+msgstr "Admin annuller tilmelding - Admin notifikationstekst"
+
+#: admin/admin_settings.php:316
+msgid "Admin Cancel Sign Up - Customer notification Subject"
+msgstr "Admin annuller tilmelding - Kunde notifikationsemne"
+
+#: admin/admin_settings.php:324
+msgid "Admin Cancel Sign Up - Customer notification Body"
+msgstr "Admin annuller tilmelding - Kunde notifikationstekst"
+
+#: admin/admin_settings.php:340
+msgid "User Cancel Signup - Admin notification Subject"
+msgstr "Bruger har annulleret tilmelding - Emne i mail til administrator"
+
+#: admin/admin_settings.php:348
+msgid "User Cancel Signup - Admin notification Body"
+msgstr "Bruger har annulleret tilmelding - Mail til administrator"
+
+#: admin/admin_settings.php:362
+msgid "User Cancel Signup - Customer notification Subject"
+msgstr "Bruger har annulleret tilmelding - Emne i mail til bruger"
+
+#: admin/admin_settings.php:370
+msgid "User Cancel Signup - Customer notification Body"
+msgstr "Bruger har annulleret tilmelding - Mail til bruger"
+
+#: public/shortcodes/checkout.php:7
+msgid "Success! Event successfully booked."
+msgstr "Tak for din tilmelding. Du har modtaget en e-mail med en bekræftelse"
+
+#: public/shortcodes/checkout.php:9
+msgid "Failed! Event couldn't book or event already booked!"
+msgstr "Fejl! Brugeren kunne ikke tilmeldes eller er allerede tilmeldt"
+
+#: public/shortcodes/checkout.php:26 public/shortcodes/checkout.php:126
+msgid "Participant"
+msgstr "Tilmeldt"
+
+#: public/shortcodes/checkout.php:51
+msgid "Confirm Email address"
+msgstr "Bekræft e-mailadresse"
+
+#: public/shortcodes/checkout.php:79
+msgid "Add new attendant"
+msgstr "Tilføj ny deltager"
+
+#: public/shortcodes/checkout.php:95
+msgid "Submit"
+msgstr "Tilmeld"
+
+#: public/shortcodes/checkout.php:103
+msgid "Number of participants"
+msgstr "Antal tilmeldte"
+
+#: public/shortcodes/checkout.php:127
+msgid "Removed"
+msgstr "Fjernet"
+
+#: public/shortcodes/checkout.php:140
+msgid "Something wrong. Try again"
+msgstr "Der skete en fejl. Prøv igen"
+
+#: public/shortcodes/my-accounts.php:41
+msgid "Cancelled.."
+msgstr "Annulleret"
+
+#: public/shortcodes/my-accounts.php:66
+msgid "Cancelled Events"
+msgstr "Aflyste events"
+
+#: public/templates/content-events.php:8
+msgid "Region : "
+msgstr "Område:"
+
+#. %s: Name of current post
+#: public/templates/content-events.php:31
+#: public/templates/not-in-use-content-events.php:31
+#, php-format
+msgid "Continue reading %s"
+msgstr "Fortsæt med at læse %s"
+
+#: public/templates/content-events.php:46
+#: public/templates/not-in-use-content-events.php:46
+#: public/templates/single-events.php:67
+#: public/templates/not-in-use-single-events.php:67
+msgid "Previous page"
+msgstr "Forrige side"
+
+#: public/templates/content-events.php:47
+#: public/templates/not-in-use-content-events.php:47
+#: public/templates/single-events.php:68
+#: public/templates/not-in-use-single-events.php:68
+msgid "Next page"
+msgstr "Næste side"
+
+#: public/templates/content-events.php:48
+#: public/templates/not-in-use-content-events.php:48
+#: public/templates/single-events.php:69
+#: public/templates/not-in-use-single-events.php:69
+msgid "Page"
+msgstr "Side"
+
+#. %s: Name of current post
+#: public/templates/single-events.php:49
+msgid "Go to Check Out"
+msgstr "Gå til tilmelding"
+
+#: public/templates/single-events.php:53
+msgid "Check Out page is missing."
+msgstr "Tjek ud side mangler"
+
+#: src/js/class-aeb_reseller-public.php:1337
+msgid "SMS Settings"
+msgstr "SMS-indstillinger"
+
+#: admin/templates/general.php:8
+msgid "Default currency symbol"
+msgstr "Standard valutasymbol"
+
+#: admin/templates/general.php:11
+msgid "Set the default currency symbol for event costs."
+msgstr "Indstil standard valutasymbol for eventpriser"
+
+#: admin/templates/general.php:15
+msgid "Thousand separator"
+msgstr "Tusindtalseparator"
+
+#: admin/templates/general.php:18
+msgid "This sets the thousand separator of displayed prices."
+msgstr "Dette angiver tusindtalseparatoren for de viste priser"
+
+#: admin/templates/general.php:22
+msgid "Decimal separator"
+msgstr "Decimalseparator"
+
+#: admin/templates/general.php:25
+msgid "This sets the decimal separator of displayed prices."
+msgstr "Dette angiver decimalseparatoren for de viste priser"
+
+#: admin/templates/general.php:29
+msgid "Date with year"
+msgstr "Dato med år"
+
+#: admin/templates/general.php:37
+msgid ""
+"Enter the format to use for displaying dates with the year. Used when "
+"displaying a date in a future year."
+msgstr ""
+"Indtast format til brug for visning af året. Bruges ved månedsvisning i året "
+"frem."
+
+#: admin/templates/general.php:41
+msgid "Date without year"
+msgstr "Dato uden år"
+
+#: admin/templates/general.php:49
+msgid ""
+"Enter the format to use for displaying dates without a year. Used when "
+"showing an event from the current year."
+msgstr ""
+"Indtast format til brug for visning uden år. Bruges ved visning af event i "
+"indeværende år"
+
+#: admin/templates/general.php:53
+msgid "Month and year format"
+msgstr "Måned og år format"
+
+#: admin/templates/general.php:61
+msgid ""
+"Enter the format to use for dates that show a month and year only. Used on "
+"month view."
+msgstr ""
+"Indtast format til brug for visning af måneder og år. Bruges ved "
+"månedsvisning"
+
+#: admin/templates/general.php:65
+msgid "Date time separator"
+msgstr "Dato tid separator"
+
+#: admin/templates/general.php:68
+msgid ""
+"Enter the separator that will be placed between the date and time, when both "
+"are shown."
+msgstr ""
+"Indtast separator der er placeret mellem dato og tid når begge er vist."
+
+#: admin/templates/general.php:72
+msgid "Time Format"
+msgstr "Tidsformat"
+
+#: admin/templates/general.php:80
+msgid ""
+"Enter the time format that display in website. Eg: <code>h:ia</code> or "
+"<code>G:i</code>"
+msgstr ""
+"Indtast det tidsformat der vises på hjemmesiden. F.eks: <code>h:ia</code> "
+"eller <code>G:i</code>"
+
+#: admin/templates/general.php:84
+msgid "Time range separator"
+msgstr "Tidsinterval separator"
+
+#: admin/templates/general.php:87
+msgid ""
+"Enter the separator that will be used between the start and end time of an "
+"event."
+msgstr ""
+"Indtast separator der vil blive brugt mellem start og slut tidspunkt på "
+"event."
+
+#: admin/templates/general.php:91
+msgid "Datepicker Date Format"
+msgstr "Datovælger datoformat"
+
+#: admin/templates/general.php:106
+msgid "Select the date format to use in datepickers"
+msgstr "Vælg det datoformat, der skal bruges i datovælgere"
+
+#: admin/templates/general.php:110
+msgid "Show Region"
+msgstr "Vis lokation"
+
+#: admin/templates/general.php:114
+msgid "If enabled, display region in front end."
+msgstr "Hvis aktiveret, skal arrangørs område vises ved eventet"
+
+#: admin/templates/general.php:118
+msgid "Event Template"
+msgstr "Layout"
+
+#: admin/templates/general.php:121
+msgid "Template 1"
+msgstr "Layout 1 (uden by i dropdown)"
+
+#: admin/templates/general.php:122
+msgid "Template 2"
+msgstr "Layout 2 (med by i dropdown)"
+
+#: admin/templates/general.php:123
+msgid ""
+"You can change Events page template. Template 2 only effective if \"Show "
+"Region\" is enabled."
+msgstr ""
+"Her kan du skifte layout. Layout 2 er kun aktivt, hvis du også har aktiveret "
+"'Vis lokation'"
+
+#: admin/templates/general.php:127
+msgid "Show City"
+msgstr "Vis By"
+
+#: admin/templates/general.php:133 admin/templates/general.php:211
+msgid "Yes"
+msgstr "Ja"
+
+#: admin/templates/general.php:134 admin/templates/general.php:212
+msgid "No"
+msgstr "Nej"
+
+#: admin/templates/general.php:135
+msgid "If enabled, display cities in event list."
+msgstr "Hvis aktiveret, vil byen bliver vist i eventlisten"
+
+#: admin/templates/general.php:142
+msgid "Seats Available Format"
+msgstr "Ledige pladser format"
+
+#: admin/templates/general.php:146
+msgid ""
+"Example : %total_booking% out of %total_seats% remaining. <br />\n"
+"        If empty, it shows like \"99 seats available.\""
+msgstr ""
+"Eksempel : %total_booking% ud af %total_seats% tilbage. <br />\n"
+"        Hvis tom, det viser \"99 pladser ledige.\""
+
+#: admin/templates/general.php:148
+msgid "Tags: %total_booking%,%total_seats%,%seats_available%"
+msgstr ""
+
+#: admin/templates/general.php:153
+msgid "Administrator Email"
+msgstr "Administrator e-mail"
+
+#: admin/templates/general.php:157
+msgid "Notification emails will receive to this email address."
+msgstr "Notifikationsmails vil blive sendt til denne e-mailadresse"
+
+#: admin/templates/general.php:161
+msgid "Sender Email Address"
+msgstr "Afsenders e-mailadresse"
+
+#: admin/templates/general.php:165
+msgid "Please add e-mail address with the same domain as the site"
+msgstr "Benyt en mailadresse, der har samme domæne som sitet"
+
+#: admin/templates/general.php:166
+msgid "Emails will send from this email address."
+msgstr "E-mailadresse, der skal stå som afsender"
+
+#: admin/templates/general.php:170
+msgid "Sender Name"
+msgstr "Afsenders navn"
+
+#: admin/templates/general.php:174
+msgid "Sender name"
+msgstr "Afsenders navn"
+
+#: admin/templates/general.php:178
+msgid "Settings: Event manager"
+msgstr "Indstillinger: Arrangør"
+
+#: admin/templates/general.php:185
+msgid "If enabled, display event manager phone number in front end."
+msgstr "Hvis aktiveret, skal arrangørs tlf.nr. vises ved eventet"
+
+#: admin/templates/general.php:193
+msgid "If enabled, display event manager email in front end."
+msgstr "Hvis aktiveret, skal arrangørs e-mailadresse vises ved eventet"
+
+#: admin/templates/general.php:201
+msgid "If enabled, display event manager website in front end."
+msgstr "Hvis aktiveret, skal arrangørs hjemmeside vises ved eventet"
+
+#: admin/templates/general.php:205
+msgid "Settings: User management"
+msgstr "Indstillinger: Brugeradministration"
+
+#: admin/templates/general.php:208
+msgid "Customer registration"
+msgstr "Brugeregistrering"
+
+#: admin/templates/general.php:213
+msgid "If Yes, will create an acoount for customer."
+msgstr "Hvis ja, oprettes konto til brugeren"
+
+#: admin/templates/email-template.php:1
+msgid "Email Template Settings"
+msgstr "Email-skabeloner"
+
+#: admin/templates/styling.php:1
+msgid "Event Styling"
+msgstr "Design af modul"
+
+#: admin/templates/styling.php:8
+msgid "Button Color"
+msgstr "Farve på knap"
+
+#: admin/templates/styling.php:11
+msgid "Select button color"
+msgstr "Vælg farve til knap"
+
+#: admin/templates/styling.php:15
+msgid "Button Text Color"
+msgstr "Tekstfarve til knap"
+
+#: admin/templates/styling.php:18
+msgid "Select button text color"
+msgstr "Vælg tekstfarve til knap"
+
+#: admin/templates/event.php:1
+msgid "Event Sign Up Field Settings"
+msgstr "Event-tilmelding - Feltindstillinger"
+
+#: admin/templates/event.php:12 admin/templates/event.php:26
+#: admin/templates/event.php:37 admin/templates/event.php:48
+#: admin/templates/event.php:61 admin/templates/event.php:72
+#: admin/templates/event.php:83 admin/templates/event.php:94
+#: admin/templates/event.php:105 admin/templates/event.php:116
+#: admin/templates/event.php:127 admin/templates/event.php:138
+#: admin/templates/event.php:149 admin/templates/event.php:160
+#: admin/templates/event.php:171 admin/templates/event.php:182
+#: admin/templates/event.php:193 admin/templates/event.php:204
+#: admin/templates/event.php:215
+msgid "Enable/Disable"
+msgstr "Aktiver/deaktiver"
+
+#: admin/templates/event.php:15 admin/templates/event.php:29
+#: admin/templates/event.php:40 admin/templates/event.php:51
+#: admin/templates/event.php:64 admin/templates/event.php:75
+#: admin/templates/event.php:86 admin/templates/event.php:97
+#: admin/templates/event.php:108 admin/templates/event.php:119
+#: admin/templates/event.php:130 admin/templates/event.php:141
+#: admin/templates/event.php:152 admin/templates/event.php:163
+#: admin/templates/event.php:174 admin/templates/event.php:185
+#: admin/templates/event.php:196 admin/templates/event.php:207
+#: admin/templates/event.php:218
+msgid "Mandatory"
+msgstr "Obligatorisk"
+
+#. Description of the plugin
+msgid "Plugin for WP Event Booking."
+msgstr "Plugin til WP event tilmelding"
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "http://www.togidata.com"
+msgstr "http://www.togidata.com"
+
+#. Author of the plugin
+msgid "TOGI Data"
+msgstr "TOGI Data"

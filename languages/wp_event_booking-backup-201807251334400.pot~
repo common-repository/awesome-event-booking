@@ -1,0 +1,1341 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Event Booking\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-07-02 05:37+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#. Name of the plugin
+#: wp_event_booking.php:34
+msgid "Awesome Event Booking"
+msgstr ""
+
+#: admin/admin_settings.php:8
+msgid "Settings"
+msgstr ""
+
+#: admin/admin_settings.php:145 admin/templates/general.php:2
+msgid "General Settings"
+msgstr ""
+
+#: admin/admin_settings.php:150
+msgid "Email Settings"
+msgstr ""
+
+#: admin/admin_settings.php:155
+msgid "Event Settings"
+msgstr ""
+
+#: admin/admin_settings.php:160
+msgid "Styling"
+msgstr ""
+
+#: admin/admin_settings.php:199
+msgid "Event sign up - Admin notification Subject"
+msgstr ""
+
+#: admin/admin_settings.php:202 admin/admin_settings.php:217
+#: admin/admin_settings.php:230 admin/admin_settings.php:238
+#: admin/admin_settings.php:252 admin/admin_settings.php:263
+#: admin/admin_settings.php:277 admin/admin_settings.php:285
+#: admin/admin_settings.php:297 admin/admin_settings.php:305
+#: admin/admin_settings.php:319 admin/admin_settings.php:327
+#: admin/admin_settings.php:343 admin/admin_settings.php:351
+#: admin/admin_settings.php:365 admin/admin_settings.php:373
+msgid "Possible shortcodes"
+msgstr ""
+
+#: admin/admin_settings.php:214
+msgid "Event sign up - Admin notification Body"
+msgstr ""
+
+#: admin/admin_settings.php:227
+msgid "Event sign up - Customer notification Subject"
+msgstr ""
+
+#: admin/admin_settings.php:235
+msgid "Event sign up - Customer notification Body"
+msgstr ""
+
+#: admin/admin_settings.php:249
+msgid "Event sign up(Dashboard) - Admin notification Subject"
+msgstr ""
+
+#: admin/admin_settings.php:260
+msgid "Event sign up(Dashboard) - Admin notification Body"
+msgstr ""
+
+#: admin/admin_settings.php:274
+msgid "Event sign up(Dashboard) - Customer notification Subject"
+msgstr ""
+
+#: admin/admin_settings.php:282
+msgid "Event sign up(Dashboard) - Customer notification Body"
+msgstr ""
+
+#: admin/admin_settings.php:294
+msgid "Admin Cancel Sign Up - Admin notification Subject"
+msgstr ""
+
+#: admin/admin_settings.php:302
+msgid "Admin Cancel Sign Up - Admin notification Body"
+msgstr ""
+
+#: admin/admin_settings.php:316
+msgid "Admin Cancel Sign Up - Customer notification Subject"
+msgstr ""
+
+#: admin/admin_settings.php:324
+msgid "Admin Cancel Sign Up - Customer notification Body"
+msgstr ""
+
+#: admin/admin_settings.php:340
+msgid "User Cancel Signup - Admin notification Subject"
+msgstr ""
+
+#: admin/admin_settings.php:348
+msgid "User Cancel Signup - Admin notification Body"
+msgstr ""
+
+#: admin/admin_settings.php:362
+msgid "User Cancel Signup - Customer notification Subject"
+msgstr ""
+
+#: admin/admin_settings.php:370
+msgid "User Cancel Signup - Customer notification Body"
+msgstr ""
+
+#: admin/event_manager_meta_box.php:12
+msgid "Event Manager Details"
+msgstr ""
+
+#: admin/event_manager_meta_box.php:35 admin/functions.php:1132
+#: admin/events_meta_box.php:183 public/functions.php:189
+#: admin/templates/general.php:179
+msgid "Phone"
+msgstr ""
+
+#: admin/event_manager_meta_box.php:36 admin/functions.php:1138
+#: admin/events_meta_box.php:184 public/functions.php:194
+#: admin/templates/general.php:187
+msgid "Email"
+msgstr ""
+
+#: admin/event_manager_meta_box.php:37 admin/events_meta_box.php:185
+#: public/functions.php:199 admin/templates/general.php:195
+msgid "Website"
+msgstr ""
+
+#: admin/register_custom_post_types.php:11
+msgctxt "Post Type General Name"
+msgid "Events"
+msgstr ""
+
+#: admin/register_custom_post_types.php:12
+msgctxt "Post Type Singular Name"
+msgid "Event"
+msgstr ""
+
+#: admin/register_custom_post_types.php:13
+#: admin/register_custom_post_types.php:14 admin/events_meta_box.php:386
+#: public/templates/content-events.php:8
+msgid "Events"
+msgstr ""
+
+#: admin/register_custom_post_types.php:15
+msgid "Event Archives"
+msgstr ""
+
+#: admin/register_custom_post_types.php:16
+msgid "Event Attributes"
+msgstr ""
+
+#: admin/register_custom_post_types.php:17
+msgid "Parent Event:"
+msgstr ""
+
+#: admin/register_custom_post_types.php:18
+msgid "All Events"
+msgstr ""
+
+#: admin/register_custom_post_types.php:19
+#: admin/register_custom_post_types.php:20
+msgid "Add New Event"
+msgstr ""
+
+#: admin/register_custom_post_types.php:21
+msgid "New Event"
+msgstr ""
+
+#: admin/register_custom_post_types.php:22
+msgid "Edit Event"
+msgstr ""
+
+#: admin/register_custom_post_types.php:23
+msgid "Update Event"
+msgstr ""
+
+#: admin/register_custom_post_types.php:24 admin/event_booking_meta_box.php:114
+msgid "View Event"
+msgstr ""
+
+#: admin/register_custom_post_types.php:25
+msgid "View Events"
+msgstr ""
+
+#: admin/register_custom_post_types.php:26
+msgid "Search Event"
+msgstr ""
+
+#: admin/register_custom_post_types.php:27
+msgid "Not found"
+msgstr ""
+
+#: admin/register_custom_post_types.php:28
+msgid "Not found in Trash"
+msgstr ""
+
+#: admin/register_custom_post_types.php:29
+msgid "Featured Image"
+msgstr ""
+
+#: admin/register_custom_post_types.php:30
+msgid "Set featured image"
+msgstr ""
+
+#: admin/register_custom_post_types.php:31
+msgid "Remove featured image"
+msgstr ""
+
+#: admin/register_custom_post_types.php:32
+msgid "Use as featured image"
+msgstr ""
+
+#: admin/register_custom_post_types.php:33
+msgid "Insert into event"
+msgstr ""
+
+#: admin/register_custom_post_types.php:34
+msgid "Uploaded to this event"
+msgstr ""
+
+#: admin/register_custom_post_types.php:35
+msgid "Events list"
+msgstr ""
+
+#: admin/register_custom_post_types.php:36
+msgid "Events list navigation"
+msgstr ""
+
+#: admin/register_custom_post_types.php:37
+msgid "Filter events list"
+msgstr ""
+
+#: admin/register_custom_post_types.php:40
+msgid "event"
+msgstr ""
+
+#: admin/register_custom_post_types.php:41
+msgid "Events post type for booking events"
+msgstr ""
+
+#: admin/register_custom_post_types.php:67
+msgctxt "Post Type General Name"
+msgid "Event Booking"
+msgstr ""
+
+#: admin/register_custom_post_types.php:68
+msgctxt "Post Type Singular Name"
+msgid "Event Booking"
+msgstr ""
+
+#: admin/register_custom_post_types.php:69
+#: admin/register_custom_post_types.php:70
+#: admin/register_custom_post_types.php:74
+msgid "Event Bookings"
+msgstr ""
+
+#: admin/register_custom_post_types.php:71
+msgid "Event Booking Archives"
+msgstr ""
+
+#: admin/register_custom_post_types.php:72
+msgid "Event Booking Attributes"
+msgstr ""
+
+#: admin/register_custom_post_types.php:73
+msgid "Parent Event Booking:"
+msgstr ""
+
+#: admin/register_custom_post_types.php:75
+msgid "Add New Event Booking"
+msgstr ""
+
+#: admin/register_custom_post_types.php:76
+msgid "Add New Booking"
+msgstr ""
+
+#: admin/register_custom_post_types.php:77
+msgid "New Event Booking"
+msgstr ""
+
+#: admin/register_custom_post_types.php:78
+msgid "Edit Event Booking"
+msgstr ""
+
+#: admin/register_custom_post_types.php:79
+msgid "Update Event Booking"
+msgstr ""
+
+#: admin/register_custom_post_types.php:80
+msgid "View Event Booking"
+msgstr ""
+
+#: admin/register_custom_post_types.php:81
+msgid "View Event Bookings"
+msgstr ""
+
+#: admin/register_custom_post_types.php:82
+msgid "Search Event Bookings"
+msgstr ""
+
+#: admin/register_custom_post_types.php:93
+msgctxt "Post Type General Name"
+msgid "Locations"
+msgstr ""
+
+#: admin/register_custom_post_types.php:94
+msgctxt "Post Type Singular Name"
+msgid "Location"
+msgstr ""
+
+#: admin/register_custom_post_types.php:95
+#: admin/register_custom_post_types.php:96
+#: admin/register_custom_post_types.php:100
+msgid "Locations"
+msgstr ""
+
+#: admin/register_custom_post_types.php:97
+msgid "Location Archives"
+msgstr ""
+
+#: admin/register_custom_post_types.php:98
+msgid "Location Attributes"
+msgstr ""
+
+#: admin/register_custom_post_types.php:99
+msgid "Parent Location:"
+msgstr ""
+
+#: admin/register_custom_post_types.php:101
+msgid "Add New Location"
+msgstr ""
+
+#: admin/register_custom_post_types.php:102
+#: admin/register_custom_post_types.php:126
+#: admin/register_custom_post_types.php:151
+msgid "Add New"
+msgstr ""
+
+#: admin/register_custom_post_types.php:103 admin/events_meta_box.php:78
+msgid "New Location"
+msgstr ""
+
+#: admin/register_custom_post_types.php:104
+msgid "Edit Location"
+msgstr ""
+
+#: admin/register_custom_post_types.php:105
+msgid "Update Location"
+msgstr ""
+
+#: admin/register_custom_post_types.php:106
+msgid "View Location"
+msgstr ""
+
+#: admin/register_custom_post_types.php:107
+msgid "View Locations"
+msgstr ""
+
+#: admin/register_custom_post_types.php:108
+msgid "Search Location"
+msgstr ""
+
+#: admin/register_custom_post_types.php:117
+msgctxt "Post Type General Name"
+msgid "Regions"
+msgstr ""
+
+#: admin/register_custom_post_types.php:118
+msgctxt "Post Type Singular Name"
+msgid "Region"
+msgstr ""
+
+#: admin/register_custom_post_types.php:119
+#: admin/register_custom_post_types.php:120
+#: admin/register_custom_post_types.php:124
+msgid "Regions"
+msgstr ""
+
+#: admin/register_custom_post_types.php:121
+msgid "Region Archives"
+msgstr ""
+
+#: admin/register_custom_post_types.php:122
+msgid "Region Attributes"
+msgstr ""
+
+#: admin/register_custom_post_types.php:123
+msgid "Parent Region:"
+msgstr ""
+
+#: admin/register_custom_post_types.php:125
+msgid "Add New Region"
+msgstr ""
+
+#: admin/register_custom_post_types.php:127 admin/events_meta_box.php:124
+#: admin/location_meta_box.php:93
+msgid "New Region"
+msgstr ""
+
+#: admin/register_custom_post_types.php:128
+msgid "Edit Region"
+msgstr ""
+
+#: admin/register_custom_post_types.php:129
+msgid "Update Region"
+msgstr ""
+
+#: admin/register_custom_post_types.php:130
+msgid "View Region"
+msgstr ""
+
+#: admin/register_custom_post_types.php:131
+msgid "View Regions"
+msgstr ""
+
+#: admin/register_custom_post_types.php:132
+msgid "Search Region"
+msgstr ""
+
+#: admin/register_custom_post_types.php:142
+msgctxt "Post Type General Name"
+msgid "Event Manager"
+msgstr ""
+
+#: admin/register_custom_post_types.php:143
+msgctxt "Post Type Singular Name"
+msgid "Event Manager"
+msgstr ""
+
+#: admin/register_custom_post_types.php:144
+#: admin/register_custom_post_types.php:145
+#: admin/register_custom_post_types.php:149
+msgid "Event Managers"
+msgstr ""
+
+#: admin/register_custom_post_types.php:146
+msgid "Event Manager Archives"
+msgstr ""
+
+#: admin/register_custom_post_types.php:147
+msgid "Event Manager Attributes"
+msgstr ""
+
+#: admin/register_custom_post_types.php:148
+msgid "Parent Event Manager:"
+msgstr ""
+
+#: admin/register_custom_post_types.php:150
+msgid "Add New Event Manager"
+msgstr ""
+
+#: admin/register_custom_post_types.php:152 admin/events_meta_box.php:181
+msgid "New Event Manager"
+msgstr ""
+
+#: admin/register_custom_post_types.php:153
+msgid "Edit Event Manager"
+msgstr ""
+
+#: admin/register_custom_post_types.php:154
+msgid "Update Event Manager"
+msgstr ""
+
+#: admin/register_custom_post_types.php:155
+msgid "View Event Manager"
+msgstr ""
+
+#: admin/register_custom_post_types.php:156
+msgid "View Event Managers"
+msgstr ""
+
+#: admin/register_custom_post_types.php:157
+msgid "Search Event Manager"
+msgstr ""
+
+#: admin/event_booking_meta_box.php:12
+msgid "Booking Details"
+msgstr ""
+
+#: admin/event_booking_meta_box.php:35 public/not-in-use--shortcodes.php:72
+#: public/shortcodes.php:72 public/functions.php:627
+msgid "Event"
+msgstr ""
+
+#: admin/event_booking_meta_box.php:94
+msgid "Event title"
+msgstr ""
+
+#: admin/event_booking_meta_box.php:99
+msgid "All Day Event"
+msgstr ""
+
+#: admin/event_booking_meta_box.php:104 public/functions.php:123
+#: public/functions.php:1010
+msgid "Start Date"
+msgstr ""
+
+#: admin/event_booking_meta_box.php:108 public/functions.php:125
+#: public/functions.php:1012
+msgid "End Date"
+msgstr ""
+
+#: admin/event_booking_meta_box.php:120
+msgid "Customer"
+msgstr ""
+
+#: admin/event_booking_meta_box.php:200
+msgid "View Customer"
+msgstr ""
+
+#: admin/event_booking_meta_box.php:253
+msgid "Booking Status"
+msgstr ""
+
+#: admin/event_booking_meta_box.php:254 admin/functions.php:503
+msgid "Activate"
+msgstr ""
+
+#: admin/event_booking_meta_box.php:255 admin/functions.php:512
+#: admin/events_meta_box.php:188 admin/events_meta_box.php:333
+#: admin/location_meta_box.php:98 public/functions.php:687
+msgid "Cancel"
+msgstr ""
+
+#: admin/new_event_list.php:34
+msgid "Amount of Signups"
+msgstr ""
+
+#: admin/new_event_list.php:35
+msgid "Available Seats Left"
+msgstr ""
+
+#: admin/new_event_list.php:36
+msgid "Event Start Date"
+msgstr ""
+
+#: admin/new_event_list.php:37 admin/functions.php:190
+#: admin/location_meta_box.php:56
+msgid "Region"
+msgstr ""
+
+#: admin/new_event_list.php:38 admin/events_meta_box.php:82
+#: admin/location_meta_box.php:40 public/functions.php:624
+msgid "City"
+msgstr ""
+
+#: admin/new_event_list.php:101
+msgid "From : "
+msgstr ""
+
+#: admin/new_event_list.php:104
+msgid "To : "
+msgstr ""
+
+#: admin/new_event_list.php:129
+msgid "Select Region"
+msgstr ""
+
+#: admin/new_event_list.php:152
+msgid "Select City"
+msgstr ""
+
+#: admin/new_event_list.php:234 public/not-in-use--shortcodes.php:5
+#: public/shortcodes.php:5 public/shortcodes/my-accounts.php:57
+msgid "Future Events"
+msgstr ""
+
+#: admin/new_event_list.php:239
+msgid "Previous Events"
+msgstr ""
+
+#: admin/functions.php:184
+msgid "Begin typing location or add new location"
+msgstr ""
+
+#: admin/functions.php:185
+msgid "Begin typing to search or add new Event Manager"
+msgstr ""
+
+#: admin/functions.php:186
+msgid "Begin typing customer or add new customer"
+msgstr ""
+
+#: admin/functions.php:187
+msgid "Type event name to select an event."
+msgstr ""
+
+#: admin/functions.php:188
+msgid "Begin typing to search or add new Region"
+msgstr ""
+
+#: admin/functions.php:189
+msgid "Country"
+msgstr ""
+
+#: admin/functions.php:346
+msgid "Upcoming"
+msgstr ""
+
+#: admin/functions.php:348
+msgid "Past"
+msgstr ""
+
+#: admin/functions.php:369
+msgid "Activate Booking"
+msgstr ""
+
+#: admin/functions.php:370
+msgid "Cancel Booking"
+msgstr ""
+
+#: admin/functions.php:485
+#, php-format
+msgid "<a href=\"%s\">Cancelled <span class=\"count\">(%d)</span></a>"
+msgstr ""
+
+#: admin/functions.php:503
+msgid "Activate event booking"
+msgstr ""
+
+#: admin/functions.php:512
+msgid "Cancel event booking"
+msgstr ""
+
+#: admin/functions.php:559 admin/functions.php:881 admin/templates/event.php:33
+msgid "Attendant phone number"
+msgstr ""
+
+#: admin/functions.php:563 admin/functions.php:893 admin/templates/event.php:57
+msgid "Attendant address"
+msgstr ""
+
+#: admin/functions.php:567 admin/functions.php:899 admin/templates/event.php:68
+msgid "Attendant zip code"
+msgstr ""
+
+#: admin/functions.php:571 admin/functions.php:905 admin/templates/event.php:79
+msgid "Attendant city"
+msgstr ""
+
+#: admin/functions.php:575 admin/functions.php:911 admin/templates/event.php:90
+msgid "Attendant state"
+msgstr ""
+
+#: admin/functions.php:579 admin/functions.php:923
+#: admin/templates/event.php:101
+msgid "Company name"
+msgstr ""
+
+#: admin/functions.php:583 admin/functions.php:929
+#: admin/templates/event.php:112
+msgid "Company address"
+msgstr ""
+
+#: admin/functions.php:587 admin/functions.php:935
+#: admin/templates/event.php:123
+msgid "Company zip code"
+msgstr ""
+
+#: admin/functions.php:591 admin/functions.php:941
+#: admin/templates/event.php:134
+msgid "Company city"
+msgstr ""
+
+#: admin/functions.php:595 admin/functions.php:947
+#: admin/templates/event.php:145
+msgid "Company state"
+msgstr ""
+
+#: admin/functions.php:599 admin/functions.php:953
+#: admin/templates/event.php:156
+msgid "Company vat number"
+msgstr ""
+
+#: admin/functions.php:603 admin/functions.php:959
+#: admin/templates/event.php:167
+msgid "Company contact person"
+msgstr ""
+
+#: admin/functions.php:607 admin/functions.php:965
+#: admin/templates/event.php:178
+msgid "Company contact person phone number"
+msgstr ""
+
+#: admin/functions.php:611 admin/functions.php:971
+#: admin/templates/event.php:189
+msgid "Company invoice e-mail address"
+msgstr ""
+
+#: admin/functions.php:615 admin/functions.php:977
+#: admin/templates/event.php:200
+msgid "Company reference"
+msgstr ""
+
+#: admin/functions.php:619 admin/functions.php:988
+#: admin/templates/event.php:211
+msgid "Personal identification number"
+msgstr ""
+
+#: admin/functions.php:659
+msgid "Sorry, your nonce did not verify."
+msgstr ""
+
+#: admin/functions.php:672
+msgid "Sorry, not enough seats available."
+msgstr ""
+
+#: admin/functions.php:768 admin/functions.php:1230
+#: admin/events_meta_box.php:628 admin/events_meta_box.php:764
+msgid "Booking #"
+msgstr ""
+
+#: admin/functions.php:768 admin/functions.php:1230
+#: admin/events_meta_box.php:628 admin/events_meta_box.php:764
+msgid " - Event: "
+msgstr ""
+
+#: admin/functions.php:768 admin/functions.php:1230
+#: admin/events_meta_box.php:628 admin/events_meta_box.php:764
+msgid " - Customer: "
+msgstr ""
+
+#: admin/functions.php:856
+msgid " All Day Event"
+msgstr ""
+
+#: admin/functions.php:869 admin/templates/event.php:8
+msgid "Attendant first name"
+msgstr ""
+
+#: admin/functions.php:875 admin/templates/event.php:22
+msgid "Attendant last name"
+msgstr ""
+
+#: admin/functions.php:887 admin/templates/event.php:44
+msgid "Attendant e-mail address"
+msgstr ""
+
+#: admin/functions.php:1129
+msgid "User Name"
+msgstr ""
+
+#: admin/functions.php:1135 public/functions.php:224
+msgid "Address"
+msgstr ""
+
+#: admin/functions.php:1141
+msgid "Booking Id"
+msgstr ""
+
+#: admin/events_meta_box.php:12
+msgid "Event Details"
+msgstr ""
+
+#: admin/events_meta_box.php:30
+msgid "Event Date/Time"
+msgstr ""
+
+#: admin/events_meta_box.php:41 public/functions.php:217
+msgid "Location"
+msgstr ""
+
+#: admin/events_meta_box.php:74
+msgid "Add Location"
+msgstr ""
+
+#: admin/events_meta_box.php:79 admin/events_meta_box.php:182
+#: admin/location_meta_box.php:94
+msgid "Title"
+msgstr ""
+
+#: admin/events_meta_box.php:80 admin/location_meta_box.php:38
+msgid "Street and No."
+msgstr ""
+
+#: admin/events_meta_box.php:81 admin/location_meta_box.php:39
+msgid "Zip code"
+msgstr ""
+
+#: admin/events_meta_box.php:120 admin/location_meta_box.php:89
+msgid "Add Region"
+msgstr ""
+
+#: admin/events_meta_box.php:126 admin/location_meta_box.php:95
+msgid "Description"
+msgstr ""
+
+#: admin/events_meta_box.php:128 admin/events_meta_box.php:135
+#: admin/events_meta_box.php:187 admin/events_meta_box.php:332
+#: admin/location_meta_box.php:97
+msgid "Add"
+msgstr ""
+
+#: admin/events_meta_box.php:129 admin/events_meta_box.php:136
+msgid "Discard"
+msgstr ""
+
+#: admin/events_meta_box.php:144 public/functions.php:183
+msgid "Event Manager"
+msgstr ""
+
+#: admin/events_meta_box.php:177
+msgid "Add Event Manager"
+msgstr ""
+
+#: admin/events_meta_box.php:196
+msgid "Short Event Description"
+msgstr ""
+
+#: admin/events_meta_box.php:213
+msgid "Event Cost"
+msgstr ""
+
+#: admin/events_meta_box.php:219 public/functions.php:244
+msgid "Cost"
+msgstr ""
+
+#: admin/events_meta_box.php:221
+msgid "Leave blank for free events."
+msgstr ""
+
+#: admin/events_meta_box.php:230
+msgid "Available spots"
+msgstr ""
+
+#: admin/events_meta_box.php:236
+msgid "Spots available"
+msgstr ""
+
+#: admin/events_meta_box.php:246
+msgid "Add Existing Customer"
+msgstr ""
+
+#: admin/events_meta_box.php:270
+msgid "Add user(s) to event now"
+msgstr ""
+
+#: admin/events_meta_box.php:274
+msgid "The user/users have been added to the event."
+msgstr ""
+
+#: admin/events_meta_box.php:279
+msgid "Add New Customer"
+msgstr ""
+
+#: admin/events_meta_box.php:283
+msgid "New Customer"
+msgstr ""
+
+#: admin/events_meta_box.php:352
+msgid "Signed up Customers"
+msgstr ""
+
+#: admin/events_meta_box.php:357
+msgid "Customers"
+msgstr ""
+
+#: admin/events_meta_box.php:358
+msgid "Select All"
+msgstr ""
+
+#: admin/events_meta_box.php:433
+msgid ""
+"Here you can move customers to another event. Select customers and select "
+"desired event, then update event."
+msgstr ""
+
+#: admin/event_booking_filter.php:8
+msgid "All Customers"
+msgstr ""
+
+#: admin/event_booking_filter.php:20
+msgid "All Guest Customers"
+msgstr ""
+
+#: admin/location_meta_box.php:12
+msgid "Location Details"
+msgstr ""
+
+#: public/not-in-use--shortcodes.php:5 public/shortcodes.php:5
+#: public/shortcodes/my-accounts.php:62
+msgid "Past Events"
+msgstr ""
+
+#: public/not-in-use--shortcodes.php:72 public/shortcodes.php:72
+#: public/functions.php:158 public/functions.php:632 public/functions.php:635
+#: public/functions.php:1045
+msgid "Start"
+msgstr ""
+
+#: public/not-in-use--shortcodes.php:72 public/shortcodes.php:72
+#: public/functions.php:632 public/functions.php:635
+msgid "Status"
+msgstr ""
+
+#: public/not-in-use--shortcodes.php:72 public/shortcodes.php:72
+#: public/functions.php:635
+msgid "Registration"
+msgstr ""
+
+#: public/not-in-use--shortcodes.php:93 public/shortcodes.php:93
+#: public/functions.php:712
+msgid "No Events Found..."
+msgstr ""
+
+#: public/functions.php:112 public/functions.php:141 public/functions.php:999
+#: public/functions.php:1028
+msgid "Date"
+msgstr ""
+
+#: public/functions.php:143 public/functions.php:160 public/functions.php:1030
+#: public/functions.php:1047
+msgid "Time"
+msgstr ""
+
+#: public/functions.php:251
+msgid "Seats Available"
+msgstr ""
+
+#: public/functions.php:690
+msgid "Sign Up"
+msgstr ""
+
+#: public/functions.php:692 public/functions.php:715
+msgid "Read More"
+msgstr ""
+
+#: public/functions.php:716
+msgid "Close"
+msgstr ""
+
+#: public/functions.php:750 src/js/class-aeb_reseller-public.php:911
+#: src/js/class-aeb_reseller-public.php:1490
+msgid " seats available."
+msgstr ""
+
+#: public/functions.php:753 src/js/class-aeb_reseller-public.php:914
+#: src/js/class-aeb_reseller-public.php:1493
+msgid "Available"
+msgstr ""
+
+#: public/functions.php:783
+msgid "You don't have access to this site"
+msgstr ""
+
+#: public/functions.php:855 src/js/class-aeb_reseller-public.php:978
+#: src/js/class-aeb_reseller-public.php:1210
+msgid "Username"
+msgstr ""
+
+#: public/functions.php:855 src/js/class-aeb_reseller-public.php:978
+#: src/js/class-aeb_reseller-public.php:1210
+msgid "Password"
+msgstr ""
+
+#: public/functions.php:1075
+msgid "Are you sure you want to cancel this?"
+msgstr ""
+
+#: public/functions.php:1076 public/shortcodes/checkout.php:133
+msgid "No seats available."
+msgstr ""
+
+#: public/functions.php:1077
+#, php-format
+msgid "Only %d% seats available."
+msgstr ""
+
+#: public/functions.php:1092
+msgid "Loading..."
+msgstr ""
+
+#: public/functions.php:1102
+msgid "Every 5 Minutes"
+msgstr ""
+
+#: admin/templates/email-template.php:1
+msgid "Email Template Settings"
+msgstr ""
+
+#: admin/templates/event.php:1
+msgid "Event Sign Up Field Settings"
+msgstr ""
+
+#: admin/templates/event.php:12 admin/templates/event.php:26
+#: admin/templates/event.php:37 admin/templates/event.php:48
+#: admin/templates/event.php:61 admin/templates/event.php:72
+#: admin/templates/event.php:83 admin/templates/event.php:94
+#: admin/templates/event.php:105 admin/templates/event.php:116
+#: admin/templates/event.php:127 admin/templates/event.php:138
+#: admin/templates/event.php:149 admin/templates/event.php:160
+#: admin/templates/event.php:171 admin/templates/event.php:182
+#: admin/templates/event.php:193 admin/templates/event.php:204
+#: admin/templates/event.php:215
+msgid "Enable/Disable"
+msgstr ""
+
+#: admin/templates/event.php:15 admin/templates/event.php:29
+#: admin/templates/event.php:40 admin/templates/event.php:51
+#: admin/templates/event.php:64 admin/templates/event.php:75
+#: admin/templates/event.php:86 admin/templates/event.php:97
+#: admin/templates/event.php:108 admin/templates/event.php:119
+#: admin/templates/event.php:130 admin/templates/event.php:141
+#: admin/templates/event.php:152 admin/templates/event.php:163
+#: admin/templates/event.php:174 admin/templates/event.php:185
+#: admin/templates/event.php:196 admin/templates/event.php:207
+#: admin/templates/event.php:218
+msgid "Mandatory"
+msgstr ""
+
+#: admin/templates/general.php:8
+msgid "Default currency symbol"
+msgstr ""
+
+#: admin/templates/general.php:11
+msgid "Set the default currency symbol for event costs."
+msgstr ""
+
+#: admin/templates/general.php:15
+msgid "Thousand separator"
+msgstr ""
+
+#: admin/templates/general.php:18
+msgid "This sets the thousand separator of displayed prices."
+msgstr ""
+
+#: admin/templates/general.php:22
+msgid "Decimal separator"
+msgstr ""
+
+#: admin/templates/general.php:25
+msgid "This sets the decimal separator of displayed prices."
+msgstr ""
+
+#: admin/templates/general.php:29
+msgid "Date with year"
+msgstr ""
+
+#: admin/templates/general.php:37
+msgid ""
+"Enter the format to use for displaying dates with the year. Used when "
+"displaying a date in a future year."
+msgstr ""
+
+#: admin/templates/general.php:41
+msgid "Date without year"
+msgstr ""
+
+#: admin/templates/general.php:49
+msgid ""
+"Enter the format to use for displaying dates without a year. Used when "
+"showing an event from the current year."
+msgstr ""
+
+#: admin/templates/general.php:53
+msgid "Month and year format"
+msgstr ""
+
+#: admin/templates/general.php:61
+msgid ""
+"Enter the format to use for dates that show a month and year only. Used on "
+"month view."
+msgstr ""
+
+#: admin/templates/general.php:65
+msgid "Date time separator"
+msgstr ""
+
+#: admin/templates/general.php:68
+msgid ""
+"Enter the separator that will be placed between the date and time, when both "
+"are shown."
+msgstr ""
+
+#: admin/templates/general.php:72
+msgid "Time Format"
+msgstr ""
+
+#: admin/templates/general.php:80
+msgid ""
+"Enter the time format that display in website. Eg: <code>h:ia</code> or "
+"<code>G:i</code>"
+msgstr ""
+
+#: admin/templates/general.php:84
+msgid "Time range separator"
+msgstr ""
+
+#: admin/templates/general.php:87
+msgid ""
+"Enter the separator that will be used between the start and end time of an "
+"event."
+msgstr ""
+
+#: admin/templates/general.php:91
+msgid "Datepicker Date Format"
+msgstr ""
+
+#: admin/templates/general.php:106
+msgid "Select the date format to use in datepickers"
+msgstr ""
+
+#: admin/templates/general.php:110
+msgid "Show Region"
+msgstr ""
+
+#: admin/templates/general.php:114
+msgid "If enabled, display region in front end."
+msgstr ""
+
+#: admin/templates/general.php:118
+msgid "Event Template"
+msgstr ""
+
+#: admin/templates/general.php:121
+msgid "Template 1"
+msgstr ""
+
+#: admin/templates/general.php:122
+msgid "Template 2"
+msgstr ""
+
+#: admin/templates/general.php:123
+msgid ""
+"You can change Events page template. Template 2 only effective if \"Show "
+"Region\" is enabled."
+msgstr ""
+
+#: admin/templates/general.php:127
+msgid "Show City"
+msgstr ""
+
+#: admin/templates/general.php:133 admin/templates/general.php:209
+msgid "Yes"
+msgstr ""
+
+#: admin/templates/general.php:134 admin/templates/general.php:210
+msgid "No"
+msgstr ""
+
+#: admin/templates/general.php:135
+msgid "If enabled, display cities in event list."
+msgstr ""
+
+#: admin/templates/general.php:142
+msgid "Seats Available Format"
+msgstr ""
+
+#: admin/templates/general.php:146
+msgid ""
+"Example : %total_booking% out of %total_seats% remaining. <br />\n"
+"        If empty, it shows like \"99 seats available.\""
+msgstr ""
+
+#: admin/templates/general.php:151
+msgid "Administrator Email"
+msgstr ""
+
+#: admin/templates/general.php:155
+msgid "Notification emails will receive to this email address."
+msgstr ""
+
+#: admin/templates/general.php:159
+msgid "Sender Email Address"
+msgstr ""
+
+#: admin/templates/general.php:163
+msgid "Please add e-mail address with the same domain as the site"
+msgstr ""
+
+#: admin/templates/general.php:164
+msgid "Emails will send from this email address."
+msgstr ""
+
+#: admin/templates/general.php:168
+msgid "Sender Name"
+msgstr ""
+
+#: admin/templates/general.php:172
+msgid "Sender name"
+msgstr ""
+
+#: admin/templates/general.php:176
+msgid "Settings: Event manager"
+msgstr ""
+
+#: admin/templates/general.php:183
+msgid "If enabled, display event manager phone number in front end."
+msgstr ""
+
+#: admin/templates/general.php:191
+msgid "If enabled, display event manager email in front end."
+msgstr ""
+
+#: admin/templates/general.php:199
+msgid "If enabled, display event manager website in front end."
+msgstr ""
+
+#: admin/templates/general.php:203
+msgid "Settings: User management"
+msgstr ""
+
+#: admin/templates/general.php:206
+msgid "Customer registration"
+msgstr ""
+
+#: admin/templates/general.php:211
+msgid "If Yes, will create an acoount for customer."
+msgstr ""
+
+#: admin/templates/styling.php:1
+msgid "Event Styling"
+msgstr ""
+
+#: admin/templates/styling.php:8
+msgid "Button Color"
+msgstr ""
+
+#: admin/templates/styling.php:11
+msgid "Select button color"
+msgstr ""
+
+#: admin/templates/styling.php:15
+msgid "Button Text Color"
+msgstr ""
+
+#: admin/templates/styling.php:18
+msgid "Select button text color"
+msgstr ""
+
+#: src/js/class-aeb_reseller-public.php:1337
+msgid "SMS Settings"
+msgstr ""
+
+#: public/shortcodes/checkout.php:7
+msgid "Success! Event successfully booked."
+msgstr ""
+
+#: public/shortcodes/checkout.php:9
+msgid "Failed! Event couldn't book or event already booked!"
+msgstr ""
+
+#: public/shortcodes/checkout.php:26 public/shortcodes/checkout.php:125
+msgid "Participant"
+msgstr ""
+
+#: public/shortcodes/checkout.php:51
+msgid "Confirm Email address"
+msgstr ""
+
+#: public/shortcodes/checkout.php:79
+msgid "Add new attendant"
+msgstr ""
+
+#: public/shortcodes/checkout.php:95
+msgid "Submit"
+msgstr ""
+
+#: public/shortcodes/checkout.php:103
+msgid "Number of participants"
+msgstr ""
+
+#: public/shortcodes/checkout.php:126
+msgid "Removed"
+msgstr ""
+
+#: public/shortcodes/checkout.php:139
+msgid "Something wrong. Try again"
+msgstr ""
+
+#: public/shortcodes/my-accounts.php:41
+msgid "Cancelled.."
+msgstr ""
+
+#: public/shortcodes/my-accounts.php:66
+msgid "Cancelled Events"
+msgstr ""
+
+#: public/templates/not-in-use-single-events.php:67
+#: public/templates/content-events.php:46
+#: public/templates/not-in-use-content-events.php:46
+#: public/templates/single-events.php:67
+msgid "Previous page"
+msgstr ""
+
+#: public/templates/not-in-use-single-events.php:68
+#: public/templates/content-events.php:47
+#: public/templates/not-in-use-content-events.php:47
+#: public/templates/single-events.php:68
+msgid "Next page"
+msgstr ""
+
+#: public/templates/not-in-use-single-events.php:69
+#: public/templates/content-events.php:48
+#: public/templates/not-in-use-content-events.php:48
+#: public/templates/single-events.php:69
+msgid "Page"
+msgstr ""
+
+#: public/templates/content-events.php:8
+msgid "Region : "
+msgstr ""
+
+#. %s: Name of current post
+#: public/templates/content-events.php:31
+#: public/templates/not-in-use-content-events.php:31
+#, php-format
+msgid "Continue reading %s"
+msgstr ""
+
+#. %s: Name of current post
+#: public/templates/single-events.php:49
+msgid "Go to Check Out"
+msgstr ""
+
+#: public/templates/single-events.php:53
+msgid "Check Out page is missing."
+msgstr ""
+
+#. Description of the plugin
+msgid "Plugin for WP Event Booking."
+msgstr ""
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "http://www.togidata.com"
+msgstr ""
+
+#. Author of the plugin
+msgid "TOGI Data"
+msgstr ""
